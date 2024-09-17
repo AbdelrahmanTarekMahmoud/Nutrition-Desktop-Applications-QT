@@ -1,0 +1,23 @@
+# Project-related settings
+PROJECT_NAME           = "SmartNutritionServer"
+OUTPUT_DIRECTORY       = ./docs
+
+# Source code settings
+INPUT                  = .
+FILE_PATTERNS          = *.cpp *.h
+RECURSIVE              = YES
+
+# HTML settings
+GENERATE_HTML          = YES
+
+# LaTeX settings (optional)
+GENERATE_LATEX         = NO
+
+# Dot tool settings (for class diagrams)
+HAVE_DOT               = YES
+CLASS_DIAGRAMS         = YES
+UML_LOOK               = YES
+
+# Extraction settings
+EXTRACT_ALL            = YES
+
