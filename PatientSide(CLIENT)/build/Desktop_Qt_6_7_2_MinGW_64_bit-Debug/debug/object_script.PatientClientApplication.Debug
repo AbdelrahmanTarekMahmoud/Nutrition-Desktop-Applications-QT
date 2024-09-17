@@ -1,0 +1,11 @@
+debug/appscreen.o
+debug/loadingscreen.o
+debug/main.o
+debug/mainwindow.o
+debug/tcpnetworkmanager.o
+debug/user.o
+debug/qrc_resources.o
+debug/moc_appscreen.o
+debug/moc_loadingscreen.o
+debug/moc_mainwindow.o
+debug/moc_tcpnetworkmanager.o

@@ -1,0 +1,11 @@
+release/appscreen.o
+release/loadingscreen.o
+release/main.o
+release/mainwindow.o
+release/tcpnetworkmanager.o
+release/user.o
+release/qrc_resources.o
+release/moc_appscreen.o
+release/moc_loadingscreen.o
+release/moc_mainwindow.o
+release/moc_tcpnetworkmanager.o
