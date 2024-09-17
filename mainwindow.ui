@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1047</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Server Application</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/new/prefix1/Icons/PopinIcon.png</normaloff>:/new/prefix1/Icons/PopinIcon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>-4</x>
+      <y>-1</y>
+      <width>1051</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(51, 209, 122);
+background-color: rgb(143, 240, 164);
+color : black
+</string>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="UserProfile">
+     <attribute name="title">
+      <string>User Profile</string>
+     </attribute>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>150</y>
+        <width>401</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="NameLabel">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 10px;
+
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="AgeLabel">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 10px;
+
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="GenderLabel">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 10px;
+
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="HeightLabel">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 10px;
+
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="WeightLabel">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 10px;
+
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="GoalsLabel">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 10px;
+
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="SleepHourLabel">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 10px;
+
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="BloodPressureLabel">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 10px;
+
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="FeedBackLabel">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 10px;
+
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>150</y>
+        <width>138</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="Name">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 5px;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string>Name                  : </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Age">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 5px;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string>Age                      : </string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Gender">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 5px;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string>Gender               :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Height">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 5px;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string>Height (in cm)  :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Weight">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 5px;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string>Weight (in Kg)  :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Goals">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 5px;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string>Goals                   : </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="SleepHours">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 5px;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string>Sleep Hours      : </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="BloodPressure">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 5px;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string>Blood Pressure :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Feedback">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+padding : 5px;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+</string>
+         </property>
+         <property name="text">
+          <string>FeedBack            :</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>10</y>
+        <width>141</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/new/prefix1/Icons/PopinIcon.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Statiscs">
+     <attribute name="title">
+      <string>Statistcs</string>
+     </attribute>
+     <widget class="QPushButton" name="GenerateChartButton">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>510</y>
+        <width>221</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+ height : 50px;
+  color : black;
+background-color : white;
+  text-align : center;
+  border : none;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+  border-top-right-radius : 10px;
+  border-bottom-right-radius : 10px;
+
+
+}
+
+QPushButton:hover
+{
+    color : rgb(61, 56, 70);
+    
+}</string>
+      </property>
+      <property name="text">
+       <string>Generate</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="chartWidget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>531</width>
+        <height>451</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="chartWidget2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>20</y>
+        <width>491</width>
+        <height>451</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
