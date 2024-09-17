@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/Text">
+        <file>TextFiles/LoginInfo.txt</file>
+    </qresource>
+    <qresource prefix="/Fonts">
+        <file>Fonts/Poppins-ExtraBold.ttf</file>
+    </qresource>
+    <qresource prefix="/Icons">
+        <file>Icons/WhiteIcon.png</file>
+        <file>Icons/BlackIcon.png</file>
+        <file>Icons/UserAfter.png</file>
+        <file>Icons/UserBefore.png</file>
+        <file>Icons/cowbell.png</file>
+        <file>Icons/cowbell(1).png</file>
+        <file>Icons/cowbell(2).png</file>
+        <file>Icons/cowbell(3).png</file>
+        <file>Icons/sign-out-alt.png</file>
+        <file>Icons/sign-out-alt(1).png</file>
+        <file>Icons/user(2).png</file>
+        <file>Icons/user(4).png</file>
+        <file>Icons/PopinIcon.png</file>
+        <file>Icons/sidebar(1).png</file>
+        <file>Icons/sidebar(2).png</file>
+        <file>Icons/sidebar(3).png</file>
+        <file>Icons/sidebar(4).png</file>
+        <file>Icons/7124045_logout_icon(1).png</file>
+        <file>Icons/7124045_logout_icon(2).png</file>
+        <file>Icons/notification.png</file>
+    </qresource>
+</RCC>
